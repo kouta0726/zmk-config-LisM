@@ -63,7 +63,7 @@
             bindings = <
                 &trans           &trans             &trans                &trans                  &trans                                                 &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MB4          &mkp MB5            &trans
                 &mkp MB5         &trans             &trans                &trans                  &trans                                                 &msc SCRL_UP &mkp MB1         &kp UP             &mkp MB2            &mkp MB3
-                &mkp MB4         &trans             &trans                &trans                  &trans                                                 &msc SCRL_DOWN &kp LEFT       &kp DOWN           &kp RIGHT           &kp PSCRL
+                &mkp MB4         &trans             &trans                &trans                  &trans                                                 &msc SCRL_DOWN &kp LEFT       &kp DOWN           &kp RIGHT           &kp PRINTSCREEN
                 &trans           &trans             &trans                &trans                  &trans            &trans              &trans           &trans       &trans           &trans             &trans              &trans
             >;
         };
