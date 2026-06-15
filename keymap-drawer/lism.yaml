@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RGUI}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - BSPC
+  - LANG5
   - Z
   - X
   - C
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - ':'
+  - SQT
   - {t: ESC, h: Device Layer}
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
@@ -91,13 +91,13 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '='
+  - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RSHIFT
-  - '*'
+  - Sft+SQT
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
   - {t: '6', h: LGUI}
@@ -111,7 +111,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - +
+  - Sft+SEMI
   - '&mkp MB2'
   - ←
   - ↓
@@ -121,10 +121,10 @@ layers:
   - '0'
   - .
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG1
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
@@ -134,31 +134,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '{'
-  - '}'
+  - Sft+RBKT
+  - Sft+BSLH
   - '!'
   - QUESTION
-  - '@'
+  - LBKT
   - '#'
-  - /
-  - '|'
+  - Gui+TAB
+  - Sft+INT3
   - $
-  - \
-  - (
-  - )
-  - '"'
-  - '`'
-  - '~'
+  - /
+  - Sft+8
+  - Sft+9
   - '-'
+  - Sft+=
+  - Sft+LBKT
+  - Sft+2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - _
-  - ^
-  - '&'
+  - INT1
+  - RBKT
+  - BSLH
+  - Sft+INT1
+  - '='
+  - Sft+6
   - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
