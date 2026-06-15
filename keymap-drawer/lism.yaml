@@ -73,7 +73,7 @@ layers:
   - ←
   - ↓
   - →
-  - PSCRL
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
