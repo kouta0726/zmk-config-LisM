@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RGUI}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - LANG5
+  - BSPC
   - Z
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - ''
   - {t: SPACE, h: Number Layer}
   - {t: INT5, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
+  - {t: '`', h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
   - ''
