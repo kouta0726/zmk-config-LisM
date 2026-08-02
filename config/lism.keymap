@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 200
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
@@ -76,7 +76,7 @@
                 &kp SLASH        &kp NUMBER_1       &kp NUMBER_2          &kp NUMBER_3            &kp LS(SEMI)                                              &mkp MB2     &kp LEFT         &kp DOWN           &kp RIGHT           &kp RALT
                 &trans           &kp NUMBER_0       &kp DOT               &trans                  &trans            &trans              &trans           &trans    &trans           &kp RS(RC(TAB))    &kp RC(TAB)         &kp F12
             >;
-            sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
         layer_3 {
