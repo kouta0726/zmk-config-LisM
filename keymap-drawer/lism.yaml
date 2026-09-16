@@ -63,7 +63,7 @@ layers:
   - '&mkp MB1'
   - ↑
   - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -77,10 +77,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Sft+S
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,7 +106,7 @@ layers:
   - '&mkp MB1'
   - ↑
   - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - /
   - '1'
   - '2'
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
