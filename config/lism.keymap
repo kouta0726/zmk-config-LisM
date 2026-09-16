@@ -86,9 +86,9 @@
             display-name = "Mouse Layer";
             bindings = <
                 &kp TAB          &kp LC(W)          &kp LG(E)             &kp LC(LS(T))           &kp LC(T)                                                 &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MB4          &mkp MB5            &zoom_in
-                &kp LC(A)        &kp LALT           &kp LSHIFT            &kp LGUI                &kp LCTRL                                                 &msc SCRL_UP &mkp MB1         &kp UP             &mkp MB2            &mkp MB3
+                &kp LC(A)        &kp LALT           &kp LSHIFT            &kp LGUI                &kp LCTRL                                                 &msc SCRL_UP &mkp MB1         &kp UP             &mkp MB2            &trans
                 &kp LC(Z)        &kp LC(X)          &kp LC(C)             &kp LC(V)               &kp LC(Y)                                                 &msc SCRL_DOWN &kp LEFT       &kp DOWN           &kp RIGHT           &zoom_out
-                &trans           &trans             &kp LG(V)             &kp LG(LS(S))           &trans            &trans              &trans           &trans       &trans           &trans             &kp LC(LS(TAB))              &kp LC(TAB)
+                &trans           &trans             &kp LG(V)             &trans                  &trans            &kp LG(LS(S))       &mkp MB3         &trans       &trans           &trans             &kp LC(LS(TAB))              &kp LC(TAB)
             >;
         };
 
@@ -96,9 +96,9 @@
             display-name = "Number Layer";
             bindings = <
                 &kp PERCENT      &kp NUMBER_7       &kp NUMBER_8          &kp NUMBER_9            &kp LS(MINUS)                                             &msc SCRL_LEFT &msc SCRL_RIGHT  &mkp MB4           &mkp MB5            &zoom_in
-                &kp LS(SQT)      &kp NUMBER_4       &kp NUMBER_5          &kp NUMBER_6            &kp MINUS                                              &msc SCRL_UP   &mkp MB1         &kp UP             &mkp MB2            &mkp MB3
+                &kp LS(SQT)      &kp NUMBER_4       &kp NUMBER_5          &kp NUMBER_6            &kp MINUS                                              &msc SCRL_UP   &mkp MB1         &kp UP             &mkp MB2            &trans
                 &kp SLASH        &kp NUMBER_1       &kp NUMBER_2          &kp NUMBER_3            &kp LS(SEMI)                                              &msc SCRL_DOWN &kp LEFT         &kp DOWN           &kp RIGHT           &zoom_out
-                &trans           &kp NUMBER_0       &kp DOT               &trans                  &trans            &trans              &trans           &trans    &trans           &kp RS(RC(TAB))    &kp RC(TAB)         &kp F12
+                &trans           &kp NUMBER_0       &kp DOT               &trans                  &trans            &trans              &mkp MB3         &trans    &trans           &kp RS(RC(TAB))    &kp RC(TAB)         &kp F12
             >;
             sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
