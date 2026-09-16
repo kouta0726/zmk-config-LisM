@@ -33,90 +33,90 @@ layers:
   - SQT
   - {t: ESC, h: Device Layer}
   - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - TAB
   - ''
   - {t: SPACE, h: Number Layer}
   - {t: INT5, h: Mark Layer}
   - {t: '`', h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
-  - ''
+  - {t: Mouse Layer, h: toggle}
   - DEL
   - {t: /, h: Device Layer}
   Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - Ctl+W
+  - Gui+E
+  - Ctl+Sft+T
+  - Ctl+T
   - '&msc SCRL_LEFT'
   - '&msc SCRL_RIGHT'
   - '&mkp MB4'
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&zoom_in'
+  - Ctl+A
+  - LALT
+  - LSHIFT
+  - LGUI
+  - LCTRL
   - '&msc SCRL_UP'
   - '&mkp MB1'
   - ↑
   - '&mkp MB2'
   - '&mkp MB3'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
   - '&msc SCRL_DOWN'
   - ←
   - ↓
   - →
-  - PRINTSCREEN
+  - '&zoom_out'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+V
+  - Gui+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Ctl+TAB
   Number Layer:
   - '%'
   - '7'
   - '8'
   - '9'
   - Sft+-
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RSHIFT
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - '&zoom_in'
   - Sft+SQT
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - '&msc SCRL_UP'
   - '&mkp MB1'
-  - ''
   - ↑
-  - ''
-  - RGUI
+  - '&mkp MB2'
+  - '&mkp MB3'
   - /
   - '1'
   - '2'
   - '3'
   - Sft+SEMI
-  - '&mkp MB2'
+  - '&msc SCRL_DOWN'
   - ←
   - ↓
   - →
-  - RALT
+  - '&zoom_out'
   - {t: ▽, type: trans}
   - '0'
   - .
