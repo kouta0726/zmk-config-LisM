@@ -106,7 +106,7 @@ layers:
   - '&mkp MB1'
   - ↑
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - /
   - '1'
   - '2'
@@ -123,12 +123,12 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
   - Ctl+TAB
-  - F12
   Mark Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
