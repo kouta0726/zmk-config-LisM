@@ -131,7 +131,7 @@ layers:
   - Ctl+TAB
   Mark Layer:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Game Layer, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+RBKT
@@ -215,3 +215,46 @@ layers:
   - ''
   - ''
   - Boot
+  Game Layer:
+  - ESC
+  - LCTRL
+  - C
+  - V
+  - PG UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - Z
+  - ↑
+  - X
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHIFT
+  - ←
+  - ↓
+  - →
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Game Layer, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
