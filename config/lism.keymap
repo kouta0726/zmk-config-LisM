@@ -106,7 +106,7 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-                &trans           &trans             &trans                &trans                  &kp LS(RBKT)                                           &kp LS(BSLH) &kp EXCLAMATION &kp QUESTION      &kp LBKT            &kp HASH
+                &trans           &tog 5             &trans                &trans                  &kp LS(RBKT)                                           &kp LS(BSLH) &kp EXCLAMATION &kp QUESTION      &kp LBKT            &kp HASH
                 &kp LG(TAB)      &kp LS(INT3)       &kp DOLLAR            &kp SLASH               &kp LS(N8)                                             &kp LS(N9)   &kp MINUS        &kp LS(EQUAL) &kp LS(LBKT)      &kp LS(N2)
                 &trans           &trans             &trans                &kp INT1                &kp RBKT                                               &kp BSLH     &kp LS(INT1)    &kp EQUAL         &kp LS(N6)          &kp SEMICOLON
                 &trans           &trans             &trans                &trans                  &trans            &trans              &trans           &trans       &trans           &trans             &trans              &trans
@@ -124,13 +124,12 @@
         };
 
         layer_5 {
-            status = "reserved";
-            display-name = "Brank Layer";
+            display-name = "Game Layer";
             bindings = <
-                &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
-                &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
-                &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
-                &trans           &trans             &trans                &trans                  &trans            &trans              &trans           &trans       &trans           &trans             &trans              &trans
+                &kp ESC          &kp LCTRL          &kp C                 &kp V                   &kp PG_UP                                              &trans       &trans           &trans             &trans              &trans
+                &kp TAB          &kp Z              &kp UP                &kp X                   &kp PG_DN                                              &trans       &trans           &trans             &trans              &trans
+                &kp LSHIFT       &kp LEFT           &kp DOWN              &kp RIGHT               &mkp MB1                                               &trans       &trans           &trans             &trans              &trans
+                &none            &none              &none                 &none                   &none             &tog 5              &trans           &trans       &trans           &trans             &trans              &trans
             >;
         };
 
